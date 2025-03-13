@@ -1,0 +1,41 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>testbiblio</Name>
+    <Description>&lt;Aucune description disponible&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>testbiblio</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="testbiblio.csproj" File="testbiblio.csproj" ReplaceParameters="true">
+      <Folder Name=".vs" TargetFolderName=".vs" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddGameForm.cs">AddGameForm.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddGameForm.Designer.cs">AddGameForm.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddGameForm.resx">AddGameForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Jeux.cs">Jeux.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ModifyGameForm.cs">ModifyGameForm.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ModifyGameForm.Designer.cs">ModifyGameForm.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ModifyGameForm.resx">ModifyGameForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="role.cs">role.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UserView.cs">UserView.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UserView.Designer.cs">UserView.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UserView.resx">UserView.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="utlisateurs.cs">utlisateurs.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ViewUser.cs">ViewUser.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ViewUser.Designer.cs">ViewUser.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ViewUser.resx">ViewUser.resx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
