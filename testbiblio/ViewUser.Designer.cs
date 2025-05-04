@@ -133,7 +133,20 @@ namespace $safeprojectname$
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            throw new NotImplementedException();
+                // Dans votre méthode LoadData ou InitializeComponent
+    dataGridView1.Columns["id"].ReadOnly = true;
+    
+    dataGridView1.Columns["nom"].ReadOnly = true;
+
+    dataGridView1.Columns["description"].ReadOnly = true;
+
+    dataGridView1.Columns["nombre_joueurs"].ReadOnly = true;
+
+    dataGridView1.Columns["nombre_cartes"].ReadOnly = true;
+   
+    dataGridView1.Columns["nombre_joueurs_max"].ReadOnly = true;
+
         }
+         private Button button1;
     }
 }
